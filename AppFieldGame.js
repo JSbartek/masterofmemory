@@ -366,7 +366,7 @@ function defaultStartBoard() {
 
 
 
-defaultStartBoard();
+window.onload = defaultStartBoard;
 
 var boardsId = {"board_4": 4, "board_5":5, "board_10":10 };
 
